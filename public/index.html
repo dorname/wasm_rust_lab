@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trying to be better</title>
+  <script type="text/javascript" src="ext/ext-all-debug.js"></script>
+  <link rel="stylesheet" href="resources/classic/theme-triton/theme-triton-all.css">
+  <!-- <meta content="text/html;charset=utf-8" http-equiv="Content-Type" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+</head>
+
+<body>
+    <button id="myButton">测试</button>
+    <script type="module">
+      import init, { log_example,test } from "/ext_lab/ext_lab.js";
+      init().then(() => {
+          log_example();
+          test()
+      });
+    </script>
+</body>
+
+</html>
